@@ -1,0 +1,21 @@
+URL API (request GET): https://economia.awesomeapi.com.br/last/USD-BRL
+
+
+RF 01 - O aplicativo dever possuir uma imagem no topo, embarcada no App
+
+RF 02 - O campo "Valor em Real" é obrigatório antes da cotação, exibindo mensagem abaixo quando não for preenchido 
+
+RF 03 - Deve ser exibido em "ShowDialog", exceptions que possam ocorrer, exemplo falta de internet
+
+RF 04 - Ao clicar no floatingActionButton deve ser enviada uma requisição para API
+
+RF 05 - Deve ser lido o retorno da API no campo "bid"
+
+RF 06 - O aplicativo deve exibir o "Valor em Dólar", fazendo a conversão do valor em real para o valor em dólar
+
+RF 07 - Abaixo do valor convertido, deve ser exibido o valor do Dólar recebido da API
+
+RF 08 - A imagem deve monitorar o evento OnLongPress, caso ocorra, devem ser limpos todos os campos da tela
+
+RF 09 - Ao clicar no botão floatingActionButton, deve mudar o campo "Valor em Dólar" para "Aguarde ..." enquanto estiver processando
+
